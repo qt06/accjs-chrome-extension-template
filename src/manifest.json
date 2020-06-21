@@ -1,0 +1,55 @@
+{
+	"manifest_version": 2,
+	"default_locale": "zh_CN",
+	"name": "__MSG_pluginName__",
+	"version": "1.0",
+	"description": "__MSG_pluginDesc__",
+	"author": "__MSG_pluginAuthor__",
+	"homepage_url": "http://www.qt06.com",
+	"icons":
+	{
+		"16": "icon/icon.png",
+		"48": "icon/icon.png",
+		"128": "icon/icon.png"
+	},
+	"browser_action": 
+	{
+		"default_icon": "icon/icon.png",
+		"default_title": "__MSG_pluginName__",
+		"default_popup": "html/popup.html"
+	},
+	"content_scripts": 
+	[
+		{
+			"matches": 
+			[
+				"https://www.wjx.cn/jq/*"
+			],
+			"js": 
+			[
+				"js/common.js",
+				"js/jquery.min.js",
+				"js/mousetrap.min.js",
+				"js/content_script.js"
+			],
+			"run_at": "document_end"
+		}
+	],
+	"web_accessible_resources": 
+	[
+		"snd/*",
+		"html/*",
+		"css/*",
+		"js/*"
+	],
+	"permissions":
+	[
+		"storage"
+	],
+	"options_ui":
+	{
+		"page": "html/options.html",
+		"chrome_style": true
+	}
+
+}

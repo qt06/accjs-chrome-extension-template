@@ -1,0 +1,7 @@
+{
+	"pluginName": {"message": "Chrome extension template"},
+	"pluginDesc": {"message": "Chrome extension description"},
+	"pluginHasAcc": {"message": "已进行无障碍优化"},
+	"pluginAuthor": {"message": "杨永全"},
+	"helloWorld": {"message": "你好，世界！"}
+}

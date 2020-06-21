@@ -1,0 +1,25 @@
+{
+  "name": "accjs-chrome-extension-template",
+  "version": "1.0.3",
+  "description": "chrome extension template for accjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qt06/accjs-chrome-extension-template.git"
+  },
+  "keywords": [
+    "accjs",
+    "chrome",
+    "extension",
+    "template"
+  ],
+  "author": "qt06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qt06/accjs-chrome-extension-template/issues"
+  },
+  "homepage": "https://github.com/qt06/accjs-chrome-extension-template#readme"
+}
