@@ -23,7 +23,7 @@
 		{
 			"matches": 
 			[
-				"https://www.wjx.cn/jq/*"
+				"<all_urls>"
 			],
 			"js": 
 			[
@@ -44,6 +44,8 @@
 	],
 	"permissions":
 	[
+		"http://*/*",
+		"https://*/*",
 		"storage"
 	],
 	"options_ui":
